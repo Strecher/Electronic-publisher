@@ -1,5 +1,5 @@
 # Electronic-publisher
-Convert some paper book in electronic format
+Convert some paper book in electronic format (educational project)
 
 ## Полезные ссылки для команды
 
