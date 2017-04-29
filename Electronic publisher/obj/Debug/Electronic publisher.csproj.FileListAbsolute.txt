@@ -1,0 +1,9 @@
+C:\MEGA\C#\Electronic publisher\Electronic publisher\bin\Debug\Electronic publisher.exe.config
+C:\MEGA\C#\Electronic publisher\Electronic publisher\bin\Debug\Electronic publisher.exe
+C:\MEGA\C#\Electronic publisher\Electronic publisher\bin\Debug\Electronic publisher.pdb
+C:\MEGA\C#\Electronic publisher\Electronic publisher\obj\Debug\Electronic publisher.csprojResolveAssemblyReference.cache
+C:\MEGA\C#\Electronic publisher\Electronic publisher\obj\Debug\Electronic_publisher.MainForm.resources
+C:\MEGA\C#\Electronic publisher\Electronic publisher\obj\Debug\Electronic_publisher.Properties.Resources.resources
+C:\MEGA\C#\Electronic publisher\Electronic publisher\obj\Debug\Electronic publisher.csproj.GenerateResource.Cache
+C:\MEGA\C#\Electronic publisher\Electronic publisher\obj\Debug\Electronic publisher.exe
+C:\MEGA\C#\Electronic publisher\Electronic publisher\obj\Debug\Electronic publisher.pdb
