@@ -27,3 +27,4 @@ Convert some paper book in electronic format
 * [Серия видеоуроков по Git для новичков](https://habrahabr.ru/post/322424/)
 * [Советы и трюки при работе с Git](https://github.com/Imangazaliev/git-tips)
 * [Шпаргалка по Git](https://medium.com/@ABatickaya/%D1%88%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0-%D0%BF%D0%BE-git-55eeea487676#.8v726byz3)
+* [Удачная модель ветвления для Git](https://habrahabr.ru/post/106912/)
