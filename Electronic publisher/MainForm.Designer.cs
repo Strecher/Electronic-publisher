@@ -28,42 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel = new System.Windows.Forms.Panel();
+            this.topPanel = new System.Windows.Forms.Panel();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.создатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.открытьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.сохранитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createNewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.publishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.correctionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.отменитьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.вырезатьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.копироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.вставитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cancelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer = new System.Windows.Forms.SplitContainer();
             this.treeView = new System.Windows.Forms.TreeView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.panelForStructureLabel = new System.Windows.Forms.Panel();
+            this.structureLabel = new System.Windows.Forms.Label();
             this.mainRichTextBox = new System.Windows.Forms.RichTextBox();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
             this.splitContainer.Panel1.SuspendLayout();
             this.splitContainer.Panel2.SuspendLayout();
             this.splitContainer.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panelForStructureLabel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel
+            // topPanel
             // 
-            this.panel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.topPanel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel.Location = new System.Drawing.Point(1, 28);
-            this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(1263, 92);
-            this.panel.TabIndex = 1;
+            this.topPanel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.topPanel.Location = new System.Drawing.Point(1, 28);
+            this.topPanel.Name = "topPanel";
+            this.topPanel.Size = new System.Drawing.Size(1263, 92);
+            this.topPanel.TabIndex = 1;
             // 
             // menuStrip
             // 
@@ -81,36 +81,36 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.создатьToolStripMenuItem,
-            this.открытьToolStripMenuItem,
-            this.сохранитьToolStripMenuItem,
+            this.createNewToolStripMenuItem,
+            this.openToolStripMenuItem,
+            this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem,
             this.publishToolStripMenuItem,
-            this.выходToolStripMenuItem});
+            this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(67, 23);
             this.fileToolStripMenuItem.Text = "Проект";
             // 
-            // создатьToolStripMenuItem
+            // createNewToolStripMenuItem
             // 
-            this.создатьToolStripMenuItem.Name = "создатьToolStripMenuItem";
-            this.создатьToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+N";
-            this.создатьToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
-            this.создатьToolStripMenuItem.Text = "Новый...";
+            this.createNewToolStripMenuItem.Name = "createNewToolStripMenuItem";
+            this.createNewToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+N";
+            this.createNewToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
+            this.createNewToolStripMenuItem.Text = "Новый...";
             // 
-            // открытьToolStripMenuItem
+            // openToolStripMenuItem
             // 
-            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            this.открытьToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+O";
-            this.открытьToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
-            this.открытьToolStripMenuItem.Text = "Открыть...";
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+O";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
+            this.openToolStripMenuItem.Text = "Открыть...";
             // 
-            // сохранитьToolStripMenuItem
+            // saveToolStripMenuItem
             // 
-            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            this.сохранитьToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+S";
-            this.сохранитьToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
-            this.сохранитьToolStripMenuItem.Text = "Сохранить";
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+S";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
+            this.saveToolStripMenuItem.Text = "Сохранить";
             // 
             // saveAsToolStripMenuItem
             // 
@@ -127,50 +127,50 @@
             this.publishToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
             this.publishToolStripMenuItem.Text = "Опубликовать";
             // 
-            // выходToolStripMenuItem
+            // exitToolStripMenuItem
             // 
-            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
-            this.выходToolStripMenuItem.Text = "Выход";
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(264, 24);
+            this.exitToolStripMenuItem.Text = "Выход";
             // 
             // correctionToolStripMenuItem
             // 
             this.correctionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.отменитьToolStripMenuItem1,
-            this.вырезатьToolStripMenuItem,
-            this.копироватьToolStripMenuItem,
-            this.вставитьToolStripMenuItem});
+            this.cancelToolStripMenuItem1,
+            this.cutToolStripMenuItem,
+            this.copyToolStripMenuItem,
+            this.pasteToolStripMenuItem});
             this.correctionToolStripMenuItem.Name = "correctionToolStripMenuItem";
             this.correctionToolStripMenuItem.Size = new System.Drawing.Size(67, 23);
             this.correctionToolStripMenuItem.Text = "Правка";
             // 
-            // отменитьToolStripMenuItem1
+            // cancelToolStripMenuItem1
             // 
-            this.отменитьToolStripMenuItem1.Name = "отменитьToolStripMenuItem1";
-            this.отменитьToolStripMenuItem1.ShortcutKeyDisplayString = "Ctrl+Z";
-            this.отменитьToolStripMenuItem1.Size = new System.Drawing.Size(203, 24);
-            this.отменитьToolStripMenuItem1.Text = "Отменить";
+            this.cancelToolStripMenuItem1.Name = "cancelToolStripMenuItem1";
+            this.cancelToolStripMenuItem1.ShortcutKeyDisplayString = "Ctrl+Z";
+            this.cancelToolStripMenuItem1.Size = new System.Drawing.Size(203, 24);
+            this.cancelToolStripMenuItem1.Text = "Отменить";
             // 
-            // вырезатьToolStripMenuItem
+            // cutToolStripMenuItem
             // 
-            this.вырезатьToolStripMenuItem.Name = "вырезатьToolStripMenuItem";
-            this.вырезатьToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+X";
-            this.вырезатьToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
-            this.вырезатьToolStripMenuItem.Text = "Вырезать";
+            this.cutToolStripMenuItem.Name = "cutToolStripMenuItem";
+            this.cutToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+X";
+            this.cutToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
+            this.cutToolStripMenuItem.Text = "Вырезать";
             // 
-            // копироватьToolStripMenuItem
+            // copyToolStripMenuItem
             // 
-            this.копироватьToolStripMenuItem.Name = "копироватьToolStripMenuItem";
-            this.копироватьToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+C";
-            this.копироватьToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
-            this.копироватьToolStripMenuItem.Text = "Копировать";
+            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            this.copyToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+C";
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
+            this.copyToolStripMenuItem.Text = "Копировать";
             // 
-            // вставитьToolStripMenuItem
+            // pasteToolStripMenuItem
             // 
-            this.вставитьToolStripMenuItem.Name = "вставитьToolStripMenuItem";
-            this.вставитьToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+V";
-            this.вставитьToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
-            this.вставитьToolStripMenuItem.Text = "Вставить";
+            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            this.pasteToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+V";
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(203, 24);
+            this.pasteToolStripMenuItem.Text = "Вставить";
             // 
             // splitContainer
             // 
@@ -184,7 +184,7 @@
             // splitContainer.Panel1
             // 
             this.splitContainer.Panel1.Controls.Add(this.treeView);
-            this.splitContainer.Panel1.Controls.Add(this.panel1);
+            this.splitContainer.Panel1.Controls.Add(this.panelForStructureLabel);
             // 
             // splitContainer.Panel2
             // 
@@ -204,26 +204,26 @@
             this.treeView.Size = new System.Drawing.Size(417, 530);
             this.treeView.TabIndex = 6;
             // 
-            // panel1
+            // panelForStructureLabel
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.panelForStructureLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1, -1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(417, 24);
-            this.panel1.TabIndex = 5;
+            this.panelForStructureLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panelForStructureLabel.Controls.Add(this.structureLabel);
+            this.panelForStructureLabel.Location = new System.Drawing.Point(1, -1);
+            this.panelForStructureLabel.Name = "panelForStructureLabel";
+            this.panelForStructureLabel.Size = new System.Drawing.Size(417, 24);
+            this.panelForStructureLabel.TabIndex = 5;
             // 
-            // label1
+            // structureLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(1, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Структура";
+            this.structureLabel.AutoSize = true;
+            this.structureLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.structureLabel.Location = new System.Drawing.Point(1, 0);
+            this.structureLabel.Name = "structureLabel";
+            this.structureLabel.Size = new System.Drawing.Size(87, 20);
+            this.structureLabel.TabIndex = 0;
+            this.structureLabel.Text = "Структура";
             // 
             // mainRichTextBox
             // 
@@ -242,7 +242,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.splitContainer);
-            this.Controls.Add(this.panel);
+            this.Controls.Add(this.topPanel);
             this.Controls.Add(this.menuStrip);
             this.Name = "MainForm";
             this.Text = "Электронный публикатор";
@@ -252,32 +252,32 @@
             this.splitContainer.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).EndInit();
             this.splitContainer.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelForStructureLabel.ResumeLayout(false);
+            this.panelForStructureLabel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel;
+        private System.Windows.Forms.Panel topPanel;
         private System.Windows.Forms.MenuStrip menuStrip;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem создатьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem открытьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem сохранитьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem createNewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveAsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem correctionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem отменитьToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem вырезатьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem копироватьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem вставитьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cancelToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem publishToolStripMenuItem;
         private System.Windows.Forms.SplitContainer splitContainer;
         private System.Windows.Forms.TreeView treeView;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panelForStructureLabel;
+        private System.Windows.Forms.Label structureLabel;
         private System.Windows.Forms.RichTextBox mainRichTextBox;
     }
 }
